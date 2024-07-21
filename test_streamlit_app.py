@@ -2,7 +2,8 @@
 
 import streamlit as st
 from langchain_community.llms import OpenAI
-import subprocess
+
+# import subprocess
 
 st.title("Streamlit Chatbot with LangChain powerd by OpenAI")
 
@@ -29,4 +30,4 @@ with st.form("my_form"):
 
 # run from the command line with streamlit run streamlit_app.py
 # Generate requirements.txt file
-subprocess.check_call(["pip", "freeze", ">requirements.txt"])
+# subprocess.check_call(["pip", "freeze", ">requirements.txt"])
